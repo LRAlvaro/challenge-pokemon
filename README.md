@@ -8,7 +8,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
 - [Node.js](https://nodejs.org/) (versión 14 o superior)
 - [npm](https://www.npmjs.com/) (generalmente se instala junto con Node.js)
-- [SQLite](https://www.sqlite.org/) (o el sistema de base de datos que estés utilizando)
+- [SQLite](https://www.sqlite.org/)
 
 ## Clonar el repositorio
 
@@ -22,10 +22,11 @@ Luego navega a la carpeta raiz
 ```
 cd challenge-pokemon
 ```
+Ahora abre dos terminales
 
 ## Configurar Backend
 
-Navega a la carpeta "Backend" y luego "pokemon-api"
+En una terminal, navega a la carpeta "Backend" y luego "pokemon-api"
 
 ```
 cd Backend
@@ -44,7 +45,7 @@ npm run start
 
 ## Configurar Frontend
 
-Navega a la carpeta "Frontend" y luego "pokemon-front"
+En la otra terminal (vuelve a la carpeta raiz si no estas en ella), navega a la carpeta "Frontend" y luego "pokemon-front"
 
 ```
 cd Frontend
