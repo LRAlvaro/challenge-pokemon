@@ -8,7 +8,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
 - [Node.js](https://nodejs.org/) (versión 14 o superior)
 - [npm](https://www.npmjs.com/) (generalmente se instala junto con Node.js)
-- [SQLite](https://www.sqlite.org/)
+- [Git](https://git-scm.com/)
 
 ## Clonar el repositorio
 
