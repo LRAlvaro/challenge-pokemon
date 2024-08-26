@@ -16,10 +16,14 @@ Primero, clona el repositorio en tu máquina local:
 
 ```bash
 git clone https://github.com/LRAlvaro/challenge-pokemon.git
+```
+Luego navega a la carpeta raiz
+
+```
 cd challenge-pokemon
 ```
 
-## Configurar backend
+## Configurar Backend
 
 Navega a la carpeta "Backend" y luego "pokemon-api"
 
@@ -51,7 +55,7 @@ Luego instala las dependencias
 ```
 npm install
 ```
-Ejecuta la api
+Ejecuta el front
 
 ```
 npm run dev
