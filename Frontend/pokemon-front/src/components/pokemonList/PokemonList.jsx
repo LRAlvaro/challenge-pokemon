@@ -9,7 +9,7 @@ import {
 
 export default function PokemonList({
   pokemons,
-  setSelectedPokemon,
+  setSelectedPokemon
 }) {
   const selectPokemon = (id) => {
     const selected = pokemons.find((pokemon) => pokemon.id === id);
