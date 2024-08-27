@@ -119,7 +119,6 @@ export default function BattlePokemon({ selectedPokemon, pokemons }) {
           <Button
             onClick={handleClick}
             color="success"
-            disabled={battleStarted && countdown > 0}
             variant="contained"
             sx={{ width: "100%", textTransform: "none", fontSize: "18px" }}
           >
