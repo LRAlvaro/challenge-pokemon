@@ -118,6 +118,7 @@ export default function BattlePokemon({ selectedPokemon, pokemons }) {
         <Grid item xs={12} md={2} sx={{ ...styles.buttonBattle }}>
           <Button
             onClick={handleClick}
+            disabled={battleStarted && countdown > 0}
             color="success"
             variant="contained"
             sx={{ width: "100%", textTransform: "none", fontSize: "18px" }}
